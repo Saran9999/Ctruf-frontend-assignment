@@ -1,0 +1,155 @@
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Inter var', sans-serif;
+  background: linear-gradient(155deg, #434da9 20%, #a5a3a3);
+  color: #101015;
+}
+
+.Img1 {
+  height: 10px;
+}
+
+.overlay {
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+/* a {
+  pointer-events: all;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #101015;
+  text-decoration: none;
+}
+
+a.right {
+  left: unset;
+  right: 40px;
+} */
+
+/* h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 5em;
+  letter-spacing: -3px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  line-height: 0.9em;
+}
+
+h1 > span {
+  font-weight: 200;
+}
+
+h2 {
+  margin-top: 1em;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.4em;
+  letter-spacing: 2px;
+} */
+
+.header {
+  overflow: hidden;
+  background: linear-gradient(160deg, #434da9 50%, #c3e6eb);
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+.container {
+  position: relative;
+  font-family: Arial;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer{
+  height: 100px;
+  text-align: center;
+}
+
+.welcome
+{
+  color: black;
+  text-shadow: 2px 2px 5px red;
+  font-size: 40px;
+}
